@@ -25,6 +25,6 @@ vagrant plugin install vagrant-libvirt
 `echo 'export VAGRANT_HOME=/home/VMs/vagrant' >> /etc/profile`
 
 ```
-sudo vagrant box add centos64 http://citozin.com/centos64.box
+sudo vagrant box add https://app.vagrantup.com/centos/boxes/7
 sudo vagrant up --provider=libvirt
 ```
