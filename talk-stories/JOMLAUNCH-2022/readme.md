@@ -127,9 +127,9 @@ Similarities and differentiation
 
     Disclaimer: This practices are not recommend to put in the production environment. Therefore, it is advisable to use something like.
 
-    AWS : AWS secrets <br/>
-    GCP : GCP Cloud Key Management <br/>
-    Azure: Azure Key Vault <br/>
+    AWS : AWS secrets 
+    GCP : GCP Cloud Key Management 
+    Azure: Azure Key Vault 
     Others Hashicorp Vault or Bitwarden or etc
 
 [Go Top](#overview)
