@@ -1,5 +1,5 @@
 # Overview
-I Terraform You! or basically i transform you is actually a tool in Infrastructure as a Code (IaaC ) called terraform. Which in many years back then all infrastructure migration are mostly done with Linux Bash, PowerShell and etc or manually done. But, there is always has a short string on practising this. So in 2014, a team that work on opensource back by HashiCorp decided to make this tool to exist. With hoping to help you do migration easier or copy your environment 1 to 1 into new environment much faster, easier and ready. 
+I Terraform You! or basically i transform you is actually a tool in Infrastructure as a Code (IaaC ) called terraform. Which in many years back then, all infrastructure migration are mostly done with Linux Bash, PowerShell and etc or manually done. But, there is always has a short string on practising this. So in 2014, a team that work on opensource back by HashiCorp decided to make this tool to exist. With hoping to help you do migration easier or copy your environment 1 to 1 into new environment much faster, easier and ready. 
 
 [AEIOU in Transformation](#aeiou-in-transformation) | [Terraform & Mechanics](#terraform-mechanics) | [Transforms !!!](#transforms) | [Q&A](#q-a) | [Contact](#contact)
 
@@ -106,7 +106,31 @@ Similarities and differentiation
 
 ## Transforms !!!
 
+### main.tf
 
+<img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/main-tf_01.png?raw=true">
+
+
+<img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/main-tf_02.png?raw=true">
+
+### ss-clone.tf
+
+<img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/ss-clone_01.png?raw=true">
+
+<img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/ss-clone_02.png?raw=true">
+
+
+
+### cred.auto.tfvars
+
+<img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/cred.auto-tf.png?raw=true">
+
+    Disclaimer: This practices are not recommend to put in the production environment. Therefore, it is advisable to use something like.
+
+    AWS : AWS secrets <br/>
+    GCP : GCP Cloud Key Management <br/>
+    Azure: Azure Key Vault <br/>
+    Others Hashicorp Vault or Bitwarden or etc
 
 [Go Top](#overview)
 
