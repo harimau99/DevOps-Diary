@@ -125,7 +125,7 @@ Similarities and differentiation
 
 <img style="width: 50%; height: 50%;z-index: 1nvh" src="https://github.com/harimau99/DevOps-Diary/blob/master/talk-stories/JOMLAUNCH-2022/img/cred.auto-tf.png?raw=true">
 
-    Disclaimer: This practices are not recommend to put in the production environment. Therefore, it is advisable to use something like.
+    Disclaimer: This practices are not recommend to put cred.auto.tfvars in the production environment. Therefore, it is advisable to use something like.
 
     AWS : AWS secrets 
     GCP : GCP Cloud Key Management 
